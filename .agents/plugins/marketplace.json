@@ -1,0 +1,20 @@
+{
+  "name": "chiarelli-plugins",
+  "interface": {
+    "displayName": "Chiarelli Labs"
+  },
+  "plugins": [
+    {
+      "name": "chiarelli-turno-invisivel",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chiarelli-turno-invisivel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

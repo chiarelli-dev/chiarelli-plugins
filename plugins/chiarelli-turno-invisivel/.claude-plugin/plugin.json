@@ -1,0 +1,9 @@
+{
+  "name": "chiarelli-turno-invisivel",
+  "version": "0.1.0",
+  "description": "Free Invisible Shift Diagnostic (pt, en, es): describe a manual back-office routine and get a diagnosis, an estimated Manual Operations Cost (COM) in BRL and a next step. Instruction-only skill, no network, no telemetry.",
+  "author": {
+    "name": "Chiarelli Labs",
+    "url": "https://chiarelli.dev"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "chiarelli-turno-invisivel",
+  "version": "0.1.0",
+  "description": "Free Invisible Shift Diagnostic (pt, en, es): describe a manual back-office routine and get a diagnosis, an estimated Manual Operations Cost (COM) in BRL and a next step. Instruction-only skill, no network, no telemetry.",
+  "author": {
+    "name": "Chiarelli Labs",
+    "url": "https://chiarelli.dev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Diagnóstico do Turno Invisível",
+    "shortDescription": "Custo do turno invisível",
+    "longDescription": "Describe a manual back-office routine and receive a diagnosis, an estimated Manual Operations Cost (COM) in BRL, a candidate automation opportunity and a next step. Instructions available in Portuguese, English and Spanish. Tested with caveats on Claude.ai, Claude Code and Codex CLI; not tested on ChatGPT. Instruction-only: no network, no telemetry.",
+    "developerName": "Chiarelli Labs",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://chiarelli.dev",
+    "defaultPrompt": [
+      "Quero diagnosticar uma rotina manual da minha empresa",
+      "Estimate the cost of a manual routine in my team",
+      "Quiero diagnosticar una rutina manual de mi equipo"
+    ]
+  }
+}
